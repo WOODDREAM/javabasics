@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.eva.dream</groupId>
+    <artifactId>design-pattern</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <developers>
+        <developer>
+            <id>evadream</id>
+            <name>evadream</name>
+            <email>1556882728@qq.com</email>
+            <roles>
+                <role>Developer</role>
+            </roles>
+            <organization>eva</organization>
+            <!--时区-->
+            <timezone>+8</timezone>
+        </developer>
+    </developers>
+    <properties>
+    <org.springframework>4.2.2.RELEASE</org.springframework>
+    </properties>
+
+    <dependencies>
+        <!--spring-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>${org.springframework}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context-support</artifactId>
+            <version>${org.springframework}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>${org.springframework}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>${org.springframework}</version>
+        </dependency>
+    </dependencies>
+</project>
